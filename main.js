@@ -20,7 +20,7 @@ form.addEventListener("submit", function (e) {
   }
 
   const msgSucesso = document.querySelector(".mensagemSucesso");
-  const msgErro = document.querySelector(".mensagemErro"); //Obtém as referências aos elementos do DOM com as classes mensagemSucesso e mensagemErro do HTML e as armazena em msgSucesso e msgErro, respectivamente.
+  const msgErro = document.querySelector(".mensagemErro"); //Obtém as referências aos elementos do DOM com as classes de CSS mensagemSucesso e mensagemErro do HTML e as armazena em msgSucesso e msgErro, respectivamente.
 
   formularioCalculo = valor(valorCampoA, valorCampoB); //Chama a função valor com os valores valorCampoA e valorCampoB e armazena o resultado em formularioCalculo.
 
